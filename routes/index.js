@@ -36,6 +36,11 @@ router.get('/Login', function(req, res, next) {
   res.render('Login', { title: 'Login' });
 });
 
+/* GET Login page. */
+router.get('/register', function(req, res, next) {
+  res.render('register', { title: 'Register' });
+});
+
 /* GET Business Contact page. 
 router.get('/contacts', function(req, res, next) {
   res.render('contacts', { title: 'contacts' });

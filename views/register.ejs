@@ -3,28 +3,16 @@
 <% include partials/nav.ejs%>
 
 <div class="container">
-
-  <h1 style="color:black"> Login </h1>
+   <h1 style="color:black"> Please Register </h1>
    <form method="POST" autocomplete="off">
     <div class="row">
-      <fieldset>
         <input type="text" name="username" placeholder="Enter Username" required>
-      </fieldset>
-      <fieldset>
         <input type="password" name="password" placeholder="Enter Password" required>
-      </fieldset>
+        <input type="email" name="password" placeholder="Enter Email Address" required>
+        <input type="displayname" name="displayname" placeholder="Enter Name" required>
         <input type="submit" value="Login">
-      </fieldset>
-
-    </div>
+        </div>
   </form>
-  <div class="bottom-container">
-  <div class="row">
-      <a href="/register" style="color:white" class="btn">Register</a>
-  </div>
 </div>
-
-</div>
-
 
 <% include partials/footer.ejs%>
