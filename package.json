@@ -1,5 +1,5 @@
 {
-  "name": "webapplication",
+  "name": "assignment2",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -25,12 +25,16 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Biijayshyper/webappass1.git"
+    "url": "git+https://github.com/Biijayshyper/webappass2.git"
   },
   "author": "Bryan Mendoza",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Biijayshyper/webappass1/issues"
+    "url": "https://github.com/Biijayshyper/webappass2/issues"
   },
-  "homepage": "https://github.com/Biijayshyper/webappass1#readme"
+  "homepage": "https://github.com/Biijayshyper/webappass2#readme",
+  "devDependencies": {},
+  "keywords": [
+    "assignment2"
+  ]
 }
