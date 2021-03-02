@@ -7,7 +7,7 @@ let contactsModel = mongoose.Schema({
     country: String
 },
 {
-    collection: "contact"
+    collection: "contacts"
 });
 
 module.exports = mongoose.model('contactlist', contactsModel);
